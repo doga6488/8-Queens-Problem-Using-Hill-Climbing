@@ -12,27 +12,12 @@ In this solution queens are represented as an array. The array consists of the q
 and indexes of array represent the coloumn number of the queens.
 The movement of queens are assumed as they can be moved only on their own coloumns in order to constrain the movements so that calculate collapses simply and more structural.
 
-Q=[4, 1, 7, 5, 3, 7, 4, 1]
+Q= {4, 1, 7, 5, 3, 7, 4, 1}
 
 For instance given array Q may be considered as the chess board below
 
-    0     1     2     3     4     5     6     7     
+![Screenshot_2](https://user-images.githubusercontent.com/26219239/55834160-ea08bb80-5b21-11e9-82a7-cbd828327800.png)
 
-0   *     *     *     *     *     *     *     *   
-
-1   *     Q     *     *     *     *     *     Q   
-
-2   *     *     *     *     *     *     *     *   
-
-3   *     *     *     *     Q     *     *     *   
-
-4   Q     *     *     *     *     *     Q     *   
-
-5   *     *     *     Q     *     *     *     *   
-
-6   *     *     *     *     *     *     *     *   
-
-7   *     *     Q     *     *     Q     *     *   
 
 Algorithm  
 1 Calculate all collapses for every piece if a queen  move to another piece which shares the same coloumn with the queen
