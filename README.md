@@ -1,7 +1,7 @@
 ## 8 Queens Problem Using Hill Climbing
 ### Definition of the problem:
 The eight queens puzzle is the problem of placing eight queens on an 8×8 chessboard in a way that not a single two queens threaten each other.
-The eight queens puzzle has 92 distinct solutions.In fact the puzzle has only 12 solutions other solutions are just symmety of themselves.
+The eight queens puzzle has 92 distinct solutions.In fact the puzzle has only 12 solutions other solutions are just symmetry of themselves.
 
 ### Hill Climbing Approach
 Hill Climbing is heuristic search that used for mathematical optimization problems in the field of Artificial Intelligence .
