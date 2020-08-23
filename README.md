@@ -24,7 +24,7 @@ In order to examine collapses simplier we only consider vertical movements(the q
 
 1. For every queen on the board, calculate the number of collapses if it moves to an empty square on its column
 2. Evaluate the collapsses by finding minimum 
-	2.1. if(There are equal collapses pick one randomly)
+	2.1 if(There are equal collapses pick one randomly)
 3. Perform movement by changing reagarding queen's row number on the array
 4. Assess the movement by examining whether there is a decrease on number of collapses
 	4.1 if it is equal then examine by counting this particular situation (in order to avoid shoulders)
