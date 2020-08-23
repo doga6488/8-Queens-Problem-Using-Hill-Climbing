@@ -20,14 +20,16 @@ For instance given array Q may be considered as the chess board below
 
 
 ### Algorithm  
-1 Calculate all collapses for every piece if a queen  move to another piece which shares the same coloumn with the queen
-2 Evaluate the collapsses by finding minimum 
-	2.1 if(There are equal collapses pick one randomly)
-3 Perform movement by changing reagarding queens row number on the array
-4 Assess the movement by examining whether there is a decrease on number of collapses
-	4.1 if it equals then examine by counting this particular situation (in order to avoid shoulders)
+In order to examine collapses simplier we only consider vertical movements(the quenns will not move diagonally)
+
+1. For every queen on the board, calculate the number of collapses if it moves to an empty square on its column
+2. Evaluate the collapsses by finding minimum 
+	2.1. if(There are equal collapses pick one randomly)
+3. Perform movement by changing reagarding queen's row number on the array
+4. Assess the movement by examining whether there is a decrease on number of collapses
+	4.1 if it is equal then examine by counting this particular situation (in order to avoid shoulders)
 	4.2 if it increase, on the other hand, start over by generating new queen positions
-5 Do again until encounter 0 collapse movement
+5. Do again until encounter 0 collapse movement
 	
 ### FlowChart Of the Algorithm
 ![chess_flowchart](https://user-images.githubusercontent.com/26219239/55834218-0efd2e80-5b22-11e9-8f66-a44ebdbf7bf5.png)
