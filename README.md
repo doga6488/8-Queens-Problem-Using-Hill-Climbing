@@ -4,7 +4,7 @@ The eight queens puzzle is the problem of placing eight queens on an 8×8 chessb
 The eight queens puzzle has 92 distinct solutions.In fact the puzzle has only 12 solutions other solutions are just symmetry of themselves.
 
 ### Hill Climbing Approach
-Hill Climbing is heuristic search that used for mathematical optimization problems in the field of Artificial Intelligence .
+Hill Climbing is a heuristic search that used for mathematical optimization problems in the field of Artificial Intelligence .
 Given a large set of inputs and a good heuristic function, it tries to find a sufficiently good solution to the problem.
 This solution may not be the global optimal maximum which means the algorithm itself might stick on some particular states called local maxima hence it might not be able to find the best solution whatsoever.
 
